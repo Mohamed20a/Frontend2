@@ -1,0 +1,167 @@
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%), url(photo/999.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-toggler{
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+.nav-link:hover{
+    color: chocolate;
+    transition: .4s ease;
+}
+.navbar-brand{
+    color: chocolate;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand:hover{
+    color: white;
+    transition: .4s ease;
+}
+.btn{
+    color: white;
+    background-color: chocolate;
+}
+.btn:hover{
+    background-color: white;
+    color: chocolate;
+    transition: .4s ease;
+}
+.form-control{
+    border: 1px chocolate solid;
+}
+.d-flex{
+    margin-right: 20px;
+}
+.dropdown-menu{
+    background:white;
+    color: chocolat;
+}
+
+
+
+.content{
+    padding-left: 40px;
+    margin-top: 11%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.span1{
+    color: chocolate;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.cn{
+    width: 80px;
+    height: 40px;
+    color: black;
+    background: chocolate;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .4s ease;
+}
+.cn a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.cn:hover{
+    background-color: white;
+    color: chocolate;
+}
+
+
+
+.offer{
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    left: 1300px;
+    top: 270px;
+    background: linear-gradient(to top, rgb(0,0,0,0.5)90%, rgb(0,0,0,0.5)90%) ;
+    padding: 25px;
+    border-radius: 10px;
+}
+#login1{
+    text-align: center;
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-box{
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid chocolate;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.submit{
+    background-color: chocolate;
+    width: 250px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    transition: .4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: chocolate;
+}
+.sing{
+    text-align: center;
+    margin-top: 5px;
+}
+.span2{
+    color: chocolate;
+    text-decoration: none;
+}
+.span2:hover{
+    color:chocolate;
+    
+}
+
+.sec1{
+
+    margin-top: -57px;
+}
+.text-center{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-white{
+    text-decoration: none;
+
+}
+
+/*       <div class="offer">
+        <form class="box" >
+            <h1 id="login1">Login</h1>
+            <input class="input-box" type="text" placeholder="User Name">
+            <input class="input-box" type="password" placeholder="password">
+            <button class="submit" type="submit">login</button>
+            <P class="sing">Don't Have an account <br><a class="span2"href="#">sing up </a>here</P>
+        </form>
+        </div>
